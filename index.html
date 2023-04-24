@@ -13,7 +13,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Wheather APP</title>
+    <title>Weather APP</title>
   </head>
   <body>
     <div class="container">
@@ -22,16 +22,16 @@
         <input type="text" placeholder="Enter your Location" />
         <button class="fa-solid fa-magnifying-glass"></button>
       </div>
-      <div class="not-found">
-        <img src="images/404.png" />
-        <p>Oops!!! Invalid Location.../</p>
-      </div>
 
       <div class="weather-box">
-        <img src="images/clear.png" />
+        <img  class="image" src="" />
         <p class="temperature">1</p>
         <p class="description">2</p>
       </div>
+      <div class="not-found">
+        <img src="images/404.png" />
+        <p>Oops!!! Invalid Location.../</p>
+      </div> 
 
       <div class="weather-details">
         <div class="humidity">
@@ -40,9 +40,7 @@
             <span></span>
             <p>Humidity</p>
           </div>
-        </div>
-
-        <div class="wind">
+            <div class="wind">
           <i class="fa-solid fa-wind"></i>
           <div class="text">
             <span></span>
@@ -50,8 +48,12 @@
           </div>
         </div>
       </div>
-    </div>
+        
 
-    <script src="js/script.js"></script>
+    
+
+  
+    </div>
   </body>
+  <script src="js/script.js"></script>
 </html>
